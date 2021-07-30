@@ -9,7 +9,7 @@
     <section>
       <base-card>
         <header>
-          <h2>intersted kalmo yabo 5alo</h2>
+          <h2>intersted ? get in touch!!</h2>
 
           <base-button link :to="contactLink">Contact </base-button>
         </header>

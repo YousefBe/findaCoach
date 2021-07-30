@@ -21,9 +21,9 @@ export default {
   data() {
     return {
       filters: {
-        frontend: true,
-        backend: true,
-        career: true
+        frontend: false,
+        backend: false,
+        career: false
       }
     };
   },
@@ -32,14 +32,12 @@ export default {
     setFilter(eve) {
       const inputId = eve.target.id;
       const changed = eve.target.checked;
-      console.log(inputId , changed);
       const updateFilters = {
         //   gdeda d
         ...this.filters,
         [inputId]: changed
       };
       this.filters = updateFilters;
-      console.log(this.filters);
       this.$emit('change-filters',  this.filters);
     }
   }

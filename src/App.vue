@@ -40,10 +40,14 @@ export default {
 
 html {
   font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100vh;
 }
 
 body {
   margin: 0;
+  width: 100%;
+  min-height: 100vh;
 }
 .route-enter-from {
   opacity: 0;
