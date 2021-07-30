@@ -3,7 +3,7 @@
     <section>
       <base-card>
         <h2>{{ fullName }}</h2>
-        <h3>{{ rate }}</h3>
+        <h3>Pricing : {{ rate }}/hour</h3>
       </base-card>
     </section>
     <section>
@@ -25,7 +25,7 @@
           :title="area"
         ></base-badge>
         <p>
-          {{ description }}
+        Description: {{ description }}
         </p>
       </section></base-card
     >
